@@ -1,0 +1,69 @@
+{
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "python.languageServer": "Pylance",
+  "python.formatting.provider": "autopep8",
+  "editor.fontFamily": "'Monaspace Neon', monospace",
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+  },
+  "workbench.editorAssociations": {
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "git.autofetch": true,
+  "terminal.integrated.env.osx": {
+    "PYTHONPATH": "${env:PYTHONPATH}:${workspaceFolder}/src"
+  },
+  "editor.formatOnSave": false,
+  "javascript.format.enable": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "python.autoComplete.addBrackets": true,
+  "python.analysis.completeFunctionParens": true,
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.factorypath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/bundles/*.js*": true
+  },
+  "typescript.implementationsCodeLens.enabled": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "editor.inlineSuggest.enabled": true,
+  "editor.tabSize": 4,
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "remote.SSH.configFile": "~/.ssh/config",
+  "docker-compose.files": ["docker-compose.yml", "server/docker-compose.yml"],
+  "git.confirmSync": false,
+  "github.gitProtocol": "ssh",
+  "eslint.alwaysShowStatus": true,
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "explorer.confirmDragAndDrop": false,
+  "terminal.integrated.defaultProfile.linux": "",
+  "debug.onTaskErrors": "abort",
+  "editor.minimap.scale": 2,
+  "editor.minimap.autohide": true,
+  "editor.minimap.renderCharacters": false,
+  "editor.fontLigatures": true,
+  "configurationDefaults": {
+    "gopls": {
+      "editor.semanticHighlighting.enabled": true,
+      "ui.semanticTokens": true
+    }
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.defaultFormatter": "ms-python.autopep8",
+  "workbench.colorTheme": "Monokai Pro",
+  "workbench.iconTheme": "Monokai Pro Icons",
+  "diffEditor.originalEditable": true
+}
